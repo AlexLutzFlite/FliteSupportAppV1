@@ -1,0 +1,16 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.unity filter=lfs diff=lfs merge=lfs -text
+*.meta filter=lfs diff=lfs merge=lfs -text
+*.prefab filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.graph filter=lfs diff=lfs merge=lfs -text
+*.file filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.lld filter=lfs diff=lfs merge=lfs -text
+*.asset filter=lfs diff=lfs merge=lfs -text
+*.File filter=lfs diff=lfs merge=lfs -text
+FliteSupportAppV1/Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
+FliteSupportAppV1/Library/* filter=lfs diff=lfs merge=lfs -text
